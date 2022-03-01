@@ -1,0 +1,212 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(33, 37, 41);
+}
+
+/* Utility class */
+.red {
+  color:  rgb(204, 32, 48); 
+  cursor: pointer;
+}
+
+/* header */
+.nav-bar {
+  height: 50px;
+  padding: 0.5rem 1rem;
+  box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px;
+  z-index: 1030;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  background: white;
+}
+
+.container1 , .container2 {
+  display: flex;
+}
+
+.bar {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  color: rgb(83, 83, 182);
+}
+
+.lang {
+  padding: 0.5rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.eclass {
+  color: rgb(204, 32, 48);
+  font-weight: 700 !important;
+  font-size: 1.17188rem;
+  line-height: inherit;
+  padding-top: 0.324219rem;
+  padding-bottom: 0.324219rem;
+  margin-right: 1rem;
+}
+
+.space {
+  width: 1175px;
+}
+
+.img, .bell, .comment {
+  padding: 0.5rem;
+  color: rgb(30, 61, 148);
+}
+
+.profile img {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.profile ,.profile span {
+  color:  rgb(204, 32, 48); 
+}
+
+.img1 {
+  width: 9.3rem;
+  height: 28px;
+}
+
+.img2 {
+  width: 30px;
+  height: 25px;
+  padding-top: 0.2rem;;
+  border-radius: 50%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* Section 1 */
+.container {
+  position: relative;
+  top: 70px;
+  max-width: 1870px;
+   margin: auto;
+}
+.header {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1.25rem;
+}
+
+.header .heading {
+  font-size: 2.34375rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem;
+}
+
+.header p {
+  line-height: 1.41rem;
+  font-size: 0.9375rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.header .space {
+  padding: 0rem 0.25rem;
+}
+
+/* Section 2 */
+
+.content {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.left {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-right: 1rem;
+  padding: 1.25rem;
+  width: 1498px;
+}
+
+.content .left .left-content {
+margin: 1rem;
+padding-left: 1rem;
+}
+
+.content .left .left-content .left-content-padding {
+  padding-left: 1.6rem;
+  padding-top: 0.9rem;
+}
+
+.content .left .left-content .left-content-padding ul {
+  padding-left: 1.2rem ;
+  line-height: 1.5;
+}
+
+.content .left .left-content .left-content-padding .p-padding {
+  padding-top: 1rem ;
+  padding-bottom: 1rem;
+}
+
+.content .left .left-content .left-content-padding .next-p {
+  padding-bottom: 1rem;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+}
+
+.right .box {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 1rem;
+}
+
+.right .right-ps {
+  padding-bottom: 1rem;
+  font-size: 1.17875rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.right-one-image {
+  
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.three-p {
+  color: rgba(0,0,0,0.6);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.indent {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.indent li {
+  line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
